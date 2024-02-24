@@ -1,0 +1,40 @@
+html, body {
+	margin: 0;
+	width: 100%;
+	height: 100%;
+  }
+.content{
+	max-width: fit-content;
+    margin: 0 auto;
+    position: relative;
+}
+.cam {
+	width:50px;
+	height:50px;
+	position: absolute;
+	background-color: red; 
+    cursor: pointer;
+	background: url("/images/camera-360.png");
+}
+.cam1 {top:20%;left:30%;}
+.cam2 {top:20%;right:32%;}
+.cam3 {top:50%;left:29%;}
+.cam4 {top:39%;right:30%;}
+.cam5 {top:34%;right:15%;}
+.cam6 {
+	top:87%;
+	right:23%;
+	background-image: none;
+    text-decoration: underline;
+    font-size: x-large;
+}
+.cam7 {top:99%;left:18%;}
+.cam8 {top:60%;right:25%;}
+.alaprajz {width:100%}
+.paral {
+	background-image: url("/images/haz.jpg");
+	min-height: 600px;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: 50% 50%;
+}

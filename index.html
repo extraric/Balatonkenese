@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<link rel="stylesheet" href="/css/main.css"  type="text/css"/>
+
+		<title>Balatonkenese</title>
+	</head>
+	<body>
+		<div class="mb-5 paral pt-5">
+			<h1 class="display-3 text-white text-center mt-5 pt-5">Balatonkenese</h1>
+		</div>
+		<h3 class="text-center">Felmérési állapot</h3>
+		<div class="content mt-4">
+		<img class="alaprajz" src="/images/alaprajz.jpg" alt="alaprajz">
+
+		<div class="cam cam1"></div>
+		<div class="cam cam2"></div>
+		<div class="cam cam3"></div>
+		<div class="cam cam4"></div>
+		<div class="cam cam5"></div>
+		<div class="cam cam6">Emelet</div>
+		<div class="cam cam7"></div>
+		<div class="cam cam8"></div>
+		</div>
+		<script>
+			document.querySelector(".cam1").addEventListener("click", function() {
+			  var myWindow = window.open("cam2.html?cam=1", "_blank");
+			});
+			document.querySelector(".cam2").addEventListener("click", function() {
+			  var myWindow = window.open("cam2.html?cam=2", "_blank");
+			});
+			document.querySelector(".cam3").addEventListener("click", function() {
+			  var myWindow = window.open("cam2.html?cam=3", "_blank");
+			});
+			document.querySelector(".cam4").addEventListener("click", function() {
+			  var myWindow = window.open("cam2.html?cam=4", "_blank");
+			});
+			document.querySelector(".cam5").addEventListener("click", function() {
+			  var myWindow = window.open("cam2.html?cam=5", "_blank");
+			});
+			document.querySelector(".cam6").addEventListener("click", function() {
+			  var myWindow = window.open("cam2.html?cam=6", "_blank");
+			});
+			document.querySelector(".cam7").addEventListener("click", function() {
+			  var myWindow = window.open("cam2.html?cam=7", "_blank");
+			});
+			document.querySelector(".cam8").addEventListener("click", function() {
+			  var myWindow = window.open("cam2.html?cam=8", "_blank");
+			});
+		</script>
+	</body>
+</html>

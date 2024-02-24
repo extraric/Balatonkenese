@@ -1,0 +1,313 @@
+{   
+    "default": {
+        "firstScene": "udvar",
+        "author": "Kovács Richárd",
+        "sceneFadeDuration": 1000,
+		"autoLoad": true,
+		"hotSpotDebug": true
+    },
+
+    "scenes": {
+        "udvar": {
+            "title": "udvar",
+            "hfov": 110,
+            "pitch": 11.73,
+            "yaw": 5.5,
+            "type": "equirectangular",
+            "panorama": "images/360_0091_Stitch_XHC.jpg",
+            "hotSpots": [
+                {
+                    "pitch": 3.5,
+                    "yaw": -7.2,
+                    "type": "scene",
+                    "text": "konyha",
+                    "sceneId": "konyha"
+                },
+                {
+                    "pitch": 31.6,
+                    "yaw": 16.2,
+                    "type": "scene",
+                    "text": "emelet",
+                    "sceneId": "emelet2"
+                }
+            ]
+        },
+
+        "konyha": {
+            "title": "konyha",
+            "hfov": 110,
+            "yaw": 5,
+            "type": "equirectangular",
+            "panorama": "images/360_0092_Stitch_XHC.jpg",
+            "hotSpots": [
+                {
+                    "pitch": -12.5,
+                    "yaw": -168,
+                    "type": "scene",
+                    "text": "udvar",
+                    "sceneId": "udvar"
+                },
+				{
+                    "pitch": -5,
+                    "yaw": 46,
+                    "type": "scene",
+                    "text": "szoba 1",
+                    "sceneId": "szoba1"
+                },
+				{
+                    "pitch": 2.5,
+                    "yaw": 46,
+                    "type": "scene",
+                    "text": "szoba 1 kiürítve",
+                    "sceneId": "szoba1ures"
+                },
+				{
+                    "pitch": -6.8,
+                    "yaw": 76,
+                    "type": "scene",
+                    "text": "folyosó",
+                    "sceneId": "folyoso",
+                    "targetYaw": -5.7,
+                    "targetPitch": -125
+                }
+            ]
+        },
+		
+		"szoba1": {
+            "title": "szoba 1",
+            "hfov": 110,
+			"pitch": -7.2,
+            "yaw": -169,
+            "type": "equirectangular",
+            "panorama": "images/360_0093_Stitch_XHC.jpg",
+            "hotSpots": [
+                {
+                    "pitch": -4.7,
+                    "yaw": 29.7,
+                    "type": "scene",
+                    "text": "konyha",
+                    "sceneId": "konyha",
+                    "targetYaw": -23,
+                    "targetPitch": 2
+                },
+				{
+                    "pitch": -7.2,
+                    "yaw": -169,
+                    "type": "scene",
+					"cssClass": "pl-info",
+                    "text": "szoba 1 kiürítve",
+                    "sceneId": "szoba1ures"
+                }
+            ]
+        },
+		
+		"szoba1ures": {
+            "title": "szoba 1 kiürítve",
+            "hfov": 110,
+			"pitch": -7.7,
+            "yaw": 183,
+            "type": "equirectangular",
+            "panorama": "images/360_0101_Stitch_XHC.jpg",
+            "hotSpots": [
+                {
+                    "pitch": -5.6,
+                    "yaw": 42,
+                    "type": "scene",
+                    "text": "konyha",
+                    "sceneId": "konyha"
+                },
+				{
+                    "pitch": -7.7,
+                    "yaw": 183,
+                    "type": "scene",
+                    "text": "felmérési állapot",
+					"cssClass": "pl-info",
+                    "sceneId": "szoba1"
+                }
+            ]
+        },
+		
+		"folyoso": {
+            "title": "folyosó",
+            "hfov": 110,
+			"pitch": -7,
+            "yaw": 72,
+            "type": "equirectangular",
+            "panorama": "images/360_0095_Stitch_XHC.jpg",
+            "hotSpots": [
+                {
+                    "pitch": -7,
+                    "yaw": 72,
+                    "type": "scene",
+                    "text": "konyha",
+                    "sceneId": "konyha",
+                    "targetYaw": -23,
+                    "targetPitch": 2
+                },
+				{
+                    "pitch": -8.12,
+                    "yaw": -13.44,
+                    "type": "scene",
+                    "text": "szoba 3",
+                    "sceneId": "szoba3"
+                },
+				{
+                    "pitch": -15.59,
+                    "yaw": 167,
+                    "type": "scene",
+                    "text": "fürdőszoba",
+                    "sceneId": "furdo"
+                },
+				{
+                    "pitch": -5.7,
+                    "yaw": -125,
+                    "type": "scene",
+                    "text": "szoba 2",
+                    "sceneId": "szoba2"
+                }
+            ]
+        },
+		
+		"furdo": {
+            "title": "fürdőszoba",
+            "hfov": 110,
+			"pitch": -25.8,
+            "yaw": -161,
+            "type": "equirectangular",
+            "panorama": "images/360_0098_Stitch_XHC.jpg",
+            "hotSpots": [
+                {
+                    "pitch": -1.5,
+                    "yaw": 19.5,
+                    "type": "scene",
+                    "text": "folyosó",
+                    "sceneId": "folyoso"
+                }
+            ]
+        },
+		
+		"szoba2": {
+            "title": "szoba 2",
+            "hfov": 110,
+            "yaw": -50,
+            "type": "equirectangular",
+            "panorama": "images/360_0097_Stitch_XHC.jpg",
+            "hotSpots": [
+                {
+                    "pitch": -8.3,
+                    "yaw": -231,
+                    "type": "scene",
+                    "text": "folyosó",
+                    "sceneId": "folyoso"
+                }
+            ]
+        },
+		
+		"szoba3": {
+            "title": "szoba 3",
+            "hfov": 110,
+            "yaw": 301,
+            "type": "equirectangular",
+            "panorama": "images/360_0096_Stitch_XHC.jpg",
+            "hotSpots": [
+                {
+                    "pitch": -9.8,
+                    "yaw": 183,
+                    "type": "scene",
+                    "text": "folyosó",
+                    "sceneId": "folyoso",
+                    "targetYaw": -180,
+                    "targetPitch": -6
+                }
+            ]
+        },
+		
+		"emelet": {
+            "title": "emelet",
+            "hfov": 110,
+			"pitch": -15.4,
+            "yaw": -129,
+            "type": "equirectangular",
+            "panorama": "images/360_0099_Stitch_XHC.jpg",
+            "hotSpots": [
+                {
+                    "pitch": -15.4,
+                    "yaw": -129,
+                    "type": "scene",
+                    "text": "emelet",
+                    "sceneId": "emelet2"
+                },
+				{
+                    "pitch": -16.4,
+                    "yaw": -17.2,
+                    "type": "scene",
+                    "text": "konyha",
+                    "sceneId": "konyha"
+                }
+            ]
+        },
+		
+		"emelet2": {
+            "title": "emelet",
+            "hfov": 110,
+            "yaw": 5,
+            "type": "equirectangular",
+            "panorama": "images/360_0100_Stitch_XHC.jpg",
+            "hotSpots": [
+                {
+                    "pitch": -10.3,
+                    "yaw": -272,
+                    "type": "scene",
+                    "text": "emelet",
+                    "sceneId": "emelet"
+                },
+				{
+                    "pitch": -24.3,
+                    "yaw": -309,
+                    "type": "scene",
+                    "text": "konyha",
+                    "sceneId": "konyha"
+                }
+            ]
+        },
+		
+		"fsz5": {
+            "title": "Fürdőszoba",
+            "hfov": 120,
+            "pitch": 14.7,
+            "yaw": 0,
+            "type": "equirectangular",
+            "panorama": "images/rolled_62.jpg",
+            "hotSpots": [
+                {
+                    "pitch": 0,
+                    "yaw": 0,
+                    "cssClass": "fsz-hotspot fsz0",
+                    "type": "info",
+                    "clickHandlerFunc": "fszhistory",
+                    "clickHandlerArgs": "",
+                    "text": "Felújítás"
+                }
+            ]
+        },
+        "fsz6": {
+            "title": "Fürdőszoba",
+            "hfov": 120,
+            "pitch": 14.7,
+            "yaw": 0,
+            "type": "equirectangular",
+            "panorama": "images/rolled_63.jpg",
+            "hotSpots": [
+                {
+                    "pitch": 0,
+                    "yaw": 0,
+                    "cssClass": "fsz-hotspot fsz0",
+                    "type": "info",
+                    "clickHandlerFunc": "fszhistory",
+                    "clickHandlerArgs": "",
+                    "text": "Felújítás"
+                }
+            ]
+        }
+    }
+}
