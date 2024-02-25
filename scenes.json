@@ -4,7 +4,7 @@
         "author": "Kovács Richárd",
         "sceneFadeDuration": 1000,
 		"autoLoad": true,
-		"hotSpotDebug": true
+		"hotSpotDebug": false
     },
 
     "scenes": {
