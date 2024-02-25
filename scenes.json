@@ -47,6 +47,13 @@
                     "text": "udvar",
                     "sceneId": "udvar"
                 },
+                {
+                    "pitch": 38.2,
+                    "yaw": 27.5,
+                    "type": "scene",
+                    "text": "emelet",
+                    "sceneId": "emelet"
+                },
 				{
                     "pitch": -5,
                     "yaw": 46,
@@ -67,8 +74,8 @@
                     "type": "scene",
                     "text": "folyosó",
                     "sceneId": "folyoso",
-                    "targetYaw": -5.7,
-                    "targetPitch": -125
+                    "targetPitch": -5.7,
+                    "targetYaw": -125
                 }
             ]
         },
@@ -141,8 +148,8 @@
                     "type": "scene",
                     "text": "konyha",
                     "sceneId": "konyha",
-                    "targetYaw": -23,
-                    "targetPitch": 2
+                    "targetPitch": -16.1,
+                    "targetYaw": -66.4
                 },
 				{
                     "pitch": -8.12,
@@ -181,7 +188,9 @@
                     "yaw": 19.5,
                     "type": "scene",
                     "text": "folyosó",
-                    "sceneId": "folyoso"
+                    "sceneId": "folyoso",
+                    "targetPitch": -8.12,
+                    "targetYaw": -13.44
                 }
             ]
         },
