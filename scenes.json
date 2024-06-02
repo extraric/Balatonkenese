@@ -69,6 +69,13 @@
                     "sceneId": "szoba1ures"
                 },
 				{
+                    "pitch": 9.55,
+                    "yaw": 46,
+                    "type": "scene",
+                    "text": "szoba 1 félkész állapot",
+                    "sceneId": "szoba1felkesz"
+                },
+				{
                     "pitch": -6.8,
                     "yaw": 76,
                     "type": "scene",
@@ -102,8 +109,16 @@
                     "yaw": -169,
                     "type": "scene",
 					"cssClass": "pl-info",
-                    "text": "szoba 1 kiürítve",
+                    "text": "kiürítve",
                     "sceneId": "szoba1ures"
+                },
+				{
+                    "pitch": -7.2,
+                    "yaw": -163,
+                    "type": "scene",
+                    "text": "félkész állapot",
+					"cssClass": "pl-info",
+                    "sceneId": "szoba1felkesz"
                 }
             ]
         },
@@ -130,6 +145,48 @@
                     "text": "felmérési állapot",
 					"cssClass": "pl-info",
                     "sceneId": "szoba1"
+                },
+				{
+                    "pitch": -7.7,
+                    "yaw": 190,
+                    "type": "scene",
+                    "text": "félkész állapot",
+					"cssClass": "pl-info",
+                    "sceneId": "szoba1felkesz"
+                }
+            ]
+        },
+		
+		"szoba1felkesz": {
+            "title": "szoba 1 félkészen",
+            "hfov": 110,
+			"pitch": -2.02,
+            "yaw": 229,
+            "type": "equirectangular",
+            "panorama": "images/360_0108_Stitch_XHC.jpg",
+            "hotSpots": [
+                {
+                    "pitch": -7,
+                    "yaw": 59,
+                    "type": "scene",
+                    "text": "konyha",
+                    "sceneId": "konyha"
+                },
+				{
+                    "pitch": -8.5,
+                    "yaw": 240,
+                    "type": "scene",
+                    "text": "felmérési állapot",
+					"cssClass": "pl-info",
+                    "sceneId": "szoba1"
+                },
+				{
+                    "pitch": -8.5,
+                    "yaw": -129,
+                    "type": "scene",
+					"cssClass": "pl-info",
+                    "text": "kiürítve",
+                    "sceneId": "szoba1ures"
                 }
             ]
         },
